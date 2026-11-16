@@ -12,12 +12,18 @@ Machine Learning Lab mini-project comparing Logistic Regression, Decision Tree, 
 ├── requirements.txt
 ├── data/
 │   └── README.md
+├── models/
+│   └── README.md
+├── notebooks/
+│   └── fraud_detection.ipynb
 ├── src/
 │   ├── fraud_lib.py
 │   ├── train.py
 │   ├── make_demo_data.py
 │   └── generate_report.py
 └── reports/
+    ├── figures/
+    │   └── README.md
     ├── project_report.md
     └── VIVA_PREP.md
 ```
@@ -72,6 +78,7 @@ The pipeline reports precision, recall, F1-score, PR-AUC, ROC-AUC, and confusion
 - The original dataset is not included. See `data/README.md` for setup.
 - Generated files are excluded by `.gitignore`; create them by running the training command.
 - `reports/project_report.md` is an example report generated from synthetic demo data. Regenerate it after training on the real Kaggle data before using its metrics.
+- See `notebooks/fraud_detection.ipynb` for a step-by-step exploration of the modelling workflow.
 
 ## Academic viva notes
 
