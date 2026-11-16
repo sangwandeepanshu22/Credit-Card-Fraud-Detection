@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local datasets
+data/creditcard.csv
+data/creditcard_demo.csv
+
+# Generated model and evaluation artifacts
+models/*.joblib
+reports/*.csv
+reports/results.json
+reports/figures/*.png
